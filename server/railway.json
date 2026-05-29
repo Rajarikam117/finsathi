@@ -1,0 +1,13 @@
+{
+  "project": {
+    "name": "finsathi-backend",
+    "services": [
+      {
+        "name": "web",
+        "path": ".",
+        "install": "npm install",
+        "start": "npm start"
+      }
+    ]
+  }
+}

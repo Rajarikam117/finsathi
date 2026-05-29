@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: finsathi-backend
+    env: node
+    plan: starter
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: GROQ_API_KEY
+        value: ""
+      - key: CORS_ORIGIN
+        value: ""
